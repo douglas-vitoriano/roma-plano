@@ -6,11 +6,8 @@
   <meta name="description" content="Plano de Profissionalização da ROMA - Representação Comercial">
   <meta name="theme-color" content="#1E3A5F">
   <title>Plano de Profissionalização — ROMA</title>
-
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/output_bg1.png">
   <link rel="apple-touch-icon" href="assets/output_bg1.png">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
@@ -18,14 +15,29 @@
 
 <body>
   <div class="container">
+
     <!-- ══ HEADER ══════════════════════════════════════════ -->
     <header class="header">
       <div class="header-logo">
-        <img src="assets/output_bg1.png" alt="ROMA Representação Comercial" title="Isotipo">
+        <!--
+          FIX 1: usa imagotipo.png (logo completa com "Representação Comercial")
+          filter: brightness(0) invert(1) garante branco sobre fundo navy
+        -->
       </div>
       <h1>Plano de <span>Profissionalização</span></h1>
       <p class="header-tagline">Estrutura, tecnologia e processos para crescimento sustentável</p>
     </header>
+
+    <!-- ── Identity strip ──────────────────────────────── -->
+    <div class="identity-strip" aria-label="Identidade visual ROMA">
+      <img src="assets/roma_isotipo.png"   alt="Isotipo ROMA"   title="Isotipo">
+      <div class="divider" role="separator"></div>
+      <img src="assets/imagotipo2.png"     alt="Imagotipo ROMA" title="Imagotipo">
+      <div class="divider" role="separator"></div>
+      <img src="assets/roma_logotipo.png"  alt="Logotipo ROMA"  title="Logotipo">
+      <div class="divider" role="separator"></div>
+      <img src="assets/roma_monograma.png" alt="Monograma ROMA" title="Monograma">
+    </div>
 
     <!-- ══ INTRO ════════════════════════════════════════════ -->
     <section class="intro" aria-labelledby="intro-h2">
@@ -146,7 +158,22 @@
         <span class="section-number" aria-hidden="true">3</span>
         <span id="s3">Gestão Comercial (CRM)</span>
       </h2>
-      <p><strong>O CRM é o sistema central de crescimento da empresa.</strong></p>
+      <h3>Mas afinal, <strong>o que é CRM?</strong></h3>
+      <p>
+      Hoje o relacionamento com clientes fica na memória, no WhatsApp ou em conversas informais.
+      Isso funciona enquanto a empresa é pequena — mas impede crescimento e causa perda de vendas.
+      </p>
+
+      <p>
+      <strong>CRM (Customer Relationship Management)</strong> é o sistema onde todos os clientes,
+      negociações e históricos ficam registrados em um único lugar da empresa, e não na cabeça de uma pessoa.
+      Ele permite saber quem comprou, quem precisa de retorno, quem está parado e quem pode comprar novamente.
+      </p>
+
+      <p>
+      Na prática, o CRM transforma relacionamento pessoal em processo comercial controlado,
+      garantindo continuidade mesmo se alguém sair da empresa.
+      </p>
 
       <h3>Funções essenciais:</h3>
       <div class="cards-grid">
@@ -178,7 +205,7 @@
 
       <div class="highlight">
         <strong>Ferramenta recomendada:</strong> Zoho CRM<br>
-        <strong>Objetivo:</strong> Transformar relacionamento pessoal em ativo da empresa
+        <strong>Resultado esperado:</strong> Nenhum cliente esquecido e histórico comercial permanente da empresa
       </div>
     </section>
 
@@ -318,31 +345,31 @@
       <h3>Identidade Visual ROMA</h3>
       <div class="brand-showcase">
         <div class="brand-item">
-          <img src="assets/imagotipo.png" alt="Imagotipo completo — fundo claro">
+          <img src="assets/roma_logotipo.png" alt="Logotipo ROMA">
         </div>
-        <div class="brand-item dark">
-          <img src="assets/imagotipo2.png" alt="Imagotipo completo — fundo escuro"
-               style="filter: brightness(0) invert(1);">
+        <div class="brand-item brand-blue">
+          <img src="assets/image.png" alt="Imagotipo completo — fundo claro">
         </div>
         <div class="brand-item">
           <img src="assets/roma_monograma.png" alt="Monograma R">
         </div>
-        <div class="brand-item">
-          <img src="assets/roma_logotipo.png" alt="Logotipo ROMA">
+        <div class="brand-item brand-blue">
+          <img src="assets/output_bg1.png"   alt="Isotipo ROMA"   title="Isotipo">
         </div>
       </div>
 
       <h3>Estrutura mínima profissional:</h3>
       <ul class="features-list">
         <li>Domínio próprio (roma.com.br)</li>
-        <li>E-mails padronizados (@roma.com.br)</li>
+        <li>E-mails padronizados (gap@roma.com.br)</li>
         <li>Assinatura de e-mail única e profissional</li>
         <li>Proposta comercial padrão</li>
         <li>Identidade visual consistente</li>
       </ul>
 
       <div class="highlight">
-        <strong>Impacto:</strong> Padronização aumenta percepção de confiabilidade e reduz atrito comercial.
+        <p><strong>Impacto:</strong> Padronização aumenta percepção de confiabilidade e reduz atrito comercial.</p>
+        <p><strong>*gap@roma.com.br: Gabriel Assis Pacheco.</strong></p>
       </div>
     </section>
 
@@ -584,12 +611,12 @@
     <!-- ══ FOOTER ════════════════════════════════════════════ -->
     <footer class="footer">
       <div class="footer-logo">
-        <img src="assets/output_bg1.png" alt="ROMA Representação Comercial" title="Isotipo">
+        <img src="assets/output_bg1.png" alt="Isotipo ROMA" title="Isotipo">
       </div>
+
       <p>ROMA — Representação Comercial</p>
       <p>Profissionalização para Crescimento Sustentável</p>
     </footer>
-
   </div>
 </body>
 </html>

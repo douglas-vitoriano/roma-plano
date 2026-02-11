@@ -576,6 +576,10 @@ body {
   transition: border-color .2s ease, transform .2s ease;
 }
 
+.brand-blue {
+  background: var(--navy);
+}
+
 .brand-item:hover {
   border-color: var(--teal);
   transform: translateY(-2px);
@@ -625,9 +629,9 @@ body {
 }
 
 .footer-logo img {
-  height: 52px;
+  height: 110px;
   width: auto;
-  filter: brightness(0) invert(1);
+  opacity: .95;
 }
 
 .footer p {
