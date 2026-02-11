@@ -1,0 +1,307 @@
+site:
+  titulo: "Plano de Profissionalização"
+  subtitulo: "ROMA — Representação Comercial"
+  descricao: "Plano de Profissionalização da ROMA - Representação Comercial"
+  theme_color: "#1E3A5F"
+  lang: "pt-BR"
+
+assets:
+  imagotipo:    "assets/imagotipo.png"
+  imagotipo2:   "assets/imagotipo2.png"
+  isotipo:      "assets/roma_isotipo.png"
+  logotipo:     "assets/roma_logotipo.png"
+  monograma:    "assets/roma_monograma.png"
+
+intro:
+  titulo: "Por que profissionalizar?"
+  descricao: >
+    A ROMA atualmente opera baseada em conhecimento individual e memória operacional.
+    Esse modelo limita crescimento, dificulta delegação e gera perda de histórico comercial.
+  objetivo: >
+    Estruturar tecnologia, atendimento e operação para permitir aumento de faturamento
+    sem aumento proporcional de esforço operacional.
+
+secoes:
+
+  - numero: 1
+    titulo: "Ambiente de Trabalho Digital"
+    descricao: "Centralizar comunicação, arquivos e produtividade com e-mails profissionais para toda a equipe."
+    opcoes:
+      - nome: "Zoho Workplace"
+        preco: "≈ R$ 12/usuário/mês"
+        destaque: "Melhor custo-benefício"
+        recursos:
+          - "E-mail profissional"
+          - "Drive (30 GB/usuário)"
+          - "Documentos e planilhas"
+          - "Reuniões integradas"
+      - nome: "Google Workspace"
+        preco: "≈ R$ 32,72/usuário/mês"
+        destaque: "Padrão do mercado"
+        recursos:
+          - "Gmail profissional"
+          - "Google Drive (30 GB)"
+          - "Docs, Sheets, Slides"
+          - "Google Meet"
+      - nome: "Microsoft 365"
+        preco: "≈ R$ 28,60/usuário/mês"
+        destaque: "Robustez corporativa"
+        recursos:
+          - "Outlook profissional"
+          - "OneDrive (1 TB/usuário)"
+          - "Word, Excel, PowerPoint"
+          - "Microsoft Teams"
+    emails_inclusos:
+      - "robertapacheco@roma.com.br"
+      - "gabrielpacheco@roma.com.br"
+      - "marins@roma.com.br"
+
+  - numero: 2
+    titulo: "Infraestrutura em Nuvem"
+    descricao: "Servidor para hospedar sistemas e garantir disponibilidade contínua."
+    tabela:
+      - plataforma: "Render"
+        custo: "≈ R$ 35"
+        manutencao: "Muito baixa"
+        indicacao: "Empresa sem TI interno"
+      - plataforma: "DigitalOcean"
+        custo: "≈ R$ 30"
+        manutencao: "Média"
+        indicacao: "Possui responsável técnico"
+      - plataforma: "Hostinger"
+        custo: "≈ R$ 25–40"
+        manutencao: "Baixa"
+        indicacao: "Uso básico"
+      - plataforma: "AWS / Google Cloud"
+        custo: "≈ R$ 100–180"
+        manutencao: "Alta"
+        indicacao: "Operação em escala"
+
+  - numero: 3
+    titulo: "Gestão Comercial (CRM)"
+    destaque: "O CRM é o sistema central de crescimento da empresa."
+    ferramenta_recomendada: "Zoho CRM"
+    objetivo_ferramenta: "Transformar relacionamento pessoal em ativo da empresa"
+    funcoes:
+      - categoria: "Controle"
+        itens:
+          - "Histórico completo de clientes"
+          - "Acompanhamento de negociações"
+          - "Previsão de vendas"
+      - categoria: "Proatividade"
+        itens:
+          - "Controle de follow-ups"
+          - "Identificação de clientes inativos"
+          - "Lembretes automáticos"
+      - categoria: "Crescimento"
+        itens:
+          - "Organização por vendedor"
+          - "Métricas de desempenho"
+          - "Pipeline de vendas"
+
+  - numero: 4
+    titulo: "Organização Interna e Processos"
+    principio: "Separar memória (Notion) de execução (Trello) evita dependência de pessoas específicas."
+    ferramentas:
+      - nome: "Notion — Base de Conhecimento"
+        funcoes:
+          - "Cadastro de clientes"
+          - "Políticas comerciais"
+          - "Treinamento de vendedores"
+          - "Playbook de vendas"
+          - "Procedimentos internos"
+      - nome: "Trello — Operação Diária"
+        funcoes:
+          - "Pedidos em andamento"
+          - "Pendências do dia"
+          - "Cobranças a fazer"
+          - "Tarefas operacionais"
+      - nome: "RD Station — Marketing"
+        funcoes:
+          - "Captura de leads"
+          - "Formulários inteligentes"
+          - "Automação de e-mail"
+          - "Nutrição de contatos"
+
+  - numero: 5
+    titulo: "Atendimento ao Cliente"
+    objetivo: "Não substituir o WhatsApp, mas preservar histórico comercial e permitir crescimento."
+    evolucao:
+      - "WhatsApp Business → relacionamento direto e ágil"
+      - "Múltiplos atendentes → escalabilidade"
+      - "Integração com CRM → histórico unificado"
+    ferramentas:
+      - nome: "WhatsApp Business"
+        descricao: "Comunicação rápida e pessoal com clientes, mantendo proximidade."
+      - nome: "Zoho Desk"
+        descricao: "Gestão de tickets, filas de atendimento e SLA profissional."
+
+  - numero: 6
+    titulo: "Controle Financeiro (ERP)"
+    destaque: "Crescimento sem controle financeiro reduz lucro sem percepção."
+    objetivos:
+      - titulo: "Contas a Pagar/Receber"
+        valor: "Fluxo organizado"
+      - titulo: "Fluxo de Caixa"
+        valor: "Visão real"
+      - titulo: "Margem por Cliente"
+        valor: "Lucratividade"
+      - titulo: "Margem por Produto"
+        valor: "Mix ideal"
+      - titulo: "Inadimplência"
+        valor: "Controle ativo"
+    ferramentas:
+      simples:
+        - "Omie"
+        - "Bling"
+      estruturado:
+        - "Tiny ERP"
+        - "Conta Azul"
+
+  - numero: 7
+    titulo: "Domínio e Identidade"
+    impacto: "Padronização aumenta percepção de confiabilidade e reduz atrito comercial."
+    estrutura_minima:
+      - "Domínio próprio (roma.com.br)"
+      - "E-mails padronizados (@roma.com.br)"
+      - "Assinatura de e-mail única e profissional"
+      - "Proposta comercial padrão"
+      - "Identidade visual consistente"
+
+  - numero: 8
+    titulo: "Segurança e Continuidade"
+    principio: "Toda informação deve sobreviver à saída de qualquer colaborador."
+    areas:
+      - categoria: "Proteção"
+        itens:
+          - "Backup automático diário"
+          - "Controle de acesso por função"
+      - categoria: "Rastreabilidade"
+        itens:
+          - "Histórico centralizado"
+          - "Registro de alterações"
+      - categoria: "Continuidade"
+        itens:
+          - "Desligamento sem perda de dados"
+          - "Transferência estruturada"
+
+  - numero: 9
+    titulo: "Inteligência Operacional (IA)"
+    ferramenta: "Claude Pro"
+    preco: "≈ R$ 105,63/mês"
+    descricao: "A IA atuará como assistente operacional permanente."
+    funcionalidades:
+      - categoria: "Produção"
+        itens:
+          - "Geração de propostas comerciais"
+          - "Padronização de respostas"
+          - "Criação de relatórios"
+      - categoria: "Análise"
+        itens:
+          - "Resumo de reuniões"
+          - "Análise de carteira"
+          - "Apoio à negociação"
+      - categoria: "Treinamento"
+        itens:
+          - "Capacitação de vendedores"
+          - "Simulações de vendas"
+          - "Base de conhecimento ativa"
+
+  - numero: 10
+    titulo: "Combinações Sugeridas"
+    pacotes:
+      - nome: "Econômica"
+        preco: "R$ 120–200"
+        periodo: "por mês"
+        recomendado: false
+        componentes:
+          - "Workspace: Zoho"
+          - "Cloud: DigitalOcean"
+          - "Processos: Notion"
+          - "Marketing: RD Station"
+          - "Atendimento: WhatsApp Business"
+          - "Domínio: Registro.br"
+      - nome: "Recomendada"
+        preco: "R$ 300–500"
+        periodo: "por mês"
+        recomendado: true
+        componentes:
+          - "Workspace: Google Workspace"
+          - "Cloud: Render"
+          - "Processos: Notion + Trello"
+          - "Marketing: RD Station"
+          - "Atendimento: WhatsApp + CRM"
+          - "Domínio: Registro.br + Cloudflare"
+      - nome: "Corporativa"
+        preco: "R$ 700–1.200"
+        periodo: "por mês"
+        recomendado: false
+        componentes:
+          - "Workspace: Microsoft 365"
+          - "Cloud: AWS/GCP"
+          - "Processos: Notion + Trello pago"
+          - "Marketing: RD Station pago"
+          - "Atendimento: Zoho Desk integrado"
+          - "Domínio: Cloudflare"
+
+  - numero: 11
+    titulo: "Indicadores de Profissionalização"
+    descricao: "A empresa deve acompanhar continuamente:"
+    kpis:
+      - titulo: "Tempo Médio de Resposta"
+        valor: "Agilidade"
+      - titulo: "Taxa de Recompra"
+        valor: "Fidelização"
+      - titulo: "Ticket Médio"
+        valor: "por Cliente"
+      - titulo: "Inadimplência"
+        valor: "% sob controle"
+      - titulo: "Pedidos Esquecidos"
+        valor: "Zero meta"
+      - titulo: "Clientes Inativos"
+        valor: "> 30 dias"
+
+  - numero: 12
+    titulo: "Proposta de Responsabilidade de TI"
+    objetivo: >
+      Estabelecer um responsável técnico único pela implementação da infraestrutura
+      tecnológica e desenvolvimento do sistema operacional próprio da empresa.
+    responsavel: >
+      O responsável de TI assumirá a implantação completa da estrutura tecnológica
+      e o desenvolvimento da plataforma interna da ROMA, centralizando clientes,
+      pedidos, histórico comercial e processos operacionais.
+    condicoes:
+      - "Não haverá remuneração monetária até a conclusão integral dos Planos 1 e 2"
+      - "Custos iniciais de TI poderão ser fornecidos pelo responsável técnico"
+      - "A construção do sistema próprio constitui investimento técnico direto no ativo da empresa"
+      - "Após a conclusão dos planos deverá ser definida participação societária ou contrato permanente de tecnologia"
+    responsabilidades:
+      - categoria: "Plataforma Própria (Ruby on Rails)"
+        itens:
+          - "Desenvolvimento do sistema interno da ROMA"
+          - "Gestão de clientes, pedidos e histórico comercial"
+          - "Painéis operacionais e indicadores"
+          - "Integração com WhatsApp, CRM e ERP"
+          - "Automação de processos comerciais"
+      - categoria: "Infraestrutura"
+        itens:
+          - "Configuração de servidores e cloud"
+          - "Deploy e manutenção do sistema"
+          - "Backups e segurança de dados"
+      - categoria: "Sistemas e Integrações"
+        itens:
+          - "Implantação e configuração do CRM"
+          - "Integração entre ferramentas"
+          - "Automação de processos operacionais"
+      - categoria: "Estrutura Digital"
+        itens:
+          - "E-mails e domínio"
+          - "Organização de dados"
+          - "Padronização operacional"
+    resultado: >
+      A operação passa a depender de processos estruturados e de uma plataforma própria,
+      não mais de memória operacional individual.
+
+footer:
+  linha1: "ROMA — Representação Comercial"
+  linha2: "Profissionalização para Crescimento Sustentável"
