@@ -16,7 +16,7 @@ Para isso serão definidos:
 
 # Principais Workspaces
 
-## Zoho Workplace (Standard) ≈ R$ 12 por usuário/mês
+### Zoho Workplace (Standard) ≈ R$ 12 por usuário/mês
 - E-mail profissional:
   - robertapacheco@roma.com.br
   - gabrielpacheco@roma.com.br
@@ -26,7 +26,7 @@ Para isso serão definidos:
 - Planilhas → Zoho Sheet
 - Reuniões → Zoho Meeting
 
-## Google Workspace (Business Starter) ≈ R$ 32,72 por usuário/mês
+### Google Workspace (Business Starter) ≈ R$ 32,72 por usuário/mês
 - E-mail profissional:
   - robertapacheco@roma.com.br
   - gabrielpacheco@roma.com.br
@@ -36,7 +36,7 @@ Para isso serão definidos:
 - Planilhas → Google Sheets
 - Reuniões → Google Meet
 
-## Microsoft 365 (Business Basic) ≈ R$ 28,60 por usuário/mês
+### Microsoft 365 (Business Basic) ≈ R$ 28,60 por usuário/mês
 - E-mail profissional:
   - robertapacheco@roma.com.br
   - gabrielpacheco@roma.com.br
@@ -57,16 +57,16 @@ A escolha deve priorizar facilidade de uso e centralização de informações, n
 ---
 
 # Serviço de nuvem e cloud
-## DigitalOcean ≈ US$ 6 / ~R$ 30 mês
+### DigitalOcean ≈ US$ 6 / ~R$ 30 mês
 Servidor simples, exige manutenção técnica.
 
-## Render ≈ US$ 7 / ~R$ 35 mês
+### Render ≈ US$ 7 / ~R$ 35 mês
 Servidor gerenciado com deploy automático.
 
-## Hostinger ≈ R$ 25–40 mês
+### Hostinger ≈ R$ 25–40 mês
 Servidor básico para projetos simples.
 
-## AWS / Google Cloud ≈ R$ 100–180 mês
+### AWS / Google Cloud ≈ R$ 100–180 mês
 Alta confiabilidade e escalabilidade.
 
 ### Nível de manutenção
@@ -109,18 +109,18 @@ Sem separar memória (Notion) de execução (Trello), a empresa volta a depender
 ---
 
 # Atendimento ao cliente
-## Evolução do atendimento
+### Evolução do atendimento
 1. Início → WhatsApp Business
 2. Crescimento → múltiplos atendentes
 3. Escala → integração com CRM
 
-## Ferramentas
-### WhatsApp Business
+### Ferramentas
+#### WhatsApp Business
 - comunicação com clientes
 - relacionamento
 - follow-up
 
-### Zoho CRM / Zoho Desk
+#### Zoho CRM / Zoho Desk
 - histórico completo do cliente
 - SLA e filas
 - controle de atendimento
@@ -131,7 +131,7 @@ O objetivo não é trocar o WhatsApp, mas parar de perder histórico comercial.
 ---
 
 # Domínio e identidade
-## Estrutura mínima profissional
+### Estrutura mínima profissional
 - domínio próprio (roma.com.br)
 - e-mails padronizados
 - assinatura de e-mail única
@@ -163,7 +163,7 @@ Claude Claude ≈ R$ 105,63 mês
 ---
 
 # Combinações finais
-## Estrutura econômica
+#### Estrutura econômica
 
 Empresa organizada gastando o mínimo possível ≈ R$ 120 – 200 / mês
 
@@ -176,7 +176,7 @@ Domínio: Registro.br
 
 ---
 
-## Estrutura recomendada (ideal para a ROMA)
+### Estrutura recomendada (ideal para a ROMA)
 
 Empresa comercial com relacionamento recorrente
 ≈ R$ 300 – 500 / mês
@@ -190,7 +190,7 @@ Domínio: Registro.br + Cloudflare
 
 ---
 
-## Estrutura corporativa escalável
+### Estrutura corporativa escalável
 
 Empresa comparável a operação grande
 ≈ R$ 700 – 1.200 / mês
@@ -205,12 +205,9 @@ Domínio: Cloudflare
 ---
 
 # Planos estratégicos de crescimento
-
 Regiões foco: Sorocaba e Barueri
 
----
-
-## PLANO 1 – 6 meses
+### PLANO 1 – 6 meses
 
 Objetivo: assumir entrega da New Millen e aumentar margem
 
@@ -251,7 +248,7 @@ Necessário:
 
 ---
 
-## PLANO 2 – 12 meses
+### PLANO 2 – 12 meses
 
 Objetivo: virar especialista em Saúde e Performance
 
